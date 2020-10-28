@@ -1,0 +1,22 @@
+{
+  "name": "polar",
+  "version": "0.0.1",
+  "description": "PoC reading from an SQSqueue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstone28/polar.git"
+  },
+  "author": "J.Stone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstone28/polar/issues"
+  },
+  "homepage": "https://github.com/jstone28/polar#readme",
+  "dependencies": {
+    "sqs-consumer": "^5.4.0"
+  }
+}
